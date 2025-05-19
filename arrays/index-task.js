@@ -23,7 +23,7 @@ var riddle = {
       const hint = this.hints[this.tries === 2 ? 0 : 1];
 
       if (this.tries) {
-        alert('Подсказка:' + hint);
+        alert('Подсказка: ' + hint);
       }
     }
   },
