@@ -7,3 +7,10 @@ const test = (a, b) => {
 };
 
 console.log(test(5, 10));
+
+
+function test2 (fun) {
+  return fun.includes('test');
+}
+
+console.log(test2('testing'));
