@@ -11,7 +11,7 @@ const sum2 = function (a, b) {
 
 // 3. IIFE (Immediately-invoked functions expression)
 (function (a, b) {
-  return a + b * 2;
+  return (a + b) * 2;
 });
 
 // 4. Arrow function
